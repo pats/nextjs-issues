@@ -1,0 +1,13 @@
+$extends: ./.app-config.juno.yaml
+
+juno:
+  project:
+    name: "testappdir"
+    team: "architects"
+  discovery:
+    service:
+      name: "testappdir"
+    tags:
+      - "gp-service-type:front"
+      - "gp-metrics-type:front"
+      - "gp-team:architects"

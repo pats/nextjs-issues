@@ -1,0 +1,26 @@
+{
+  "name": "testappdir",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@grupa-pracuj/juno-auth": "^5.8.52",
+    "@grupa-pracuj/juno-config": "^5.8.51",
+    "@grupa-pracuj/juno-discovery": "^5.8.52",
+    "@grupa-pracuj/juno-express": "^5.8.52",
+    "@grupa-pracuj/juno-logger": "^5.8.52",
+    "@types/node": "18.15.13",
+    "@types/react": "18.0.37",
+    "@types/react-dom": "18.0.11",
+    "next": "13.3.0",
+    "next-transpile-modules": "^10.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  }
+}
